@@ -104,7 +104,7 @@ class CustomVboActionsCommerceProductTags extends ViewsBulkOperationsActionBase 
       '#title' => $this->t('Product tags'),
       '#type' => 'textarea',
       '#description' => $this->t('The product tags. Use comma-separated list. Example: funny, bungee jumping, "Company, Inc."'),
-      '#default_value' => Tags::implode($this->configuration['product_tags']),
+      '#default_value' => !empty($this->configuration['product_tags']) ? Tags::implode($this->configuration['product_tags']) : '',
     ];
 
     return $form;
