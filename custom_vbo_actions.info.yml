@@ -1,0 +1,8 @@
+type: module
+name: 'Custom Views Bulk Operations actions'
+description: 'Defines our custom VBO actions'
+package: 'Custom'
+core_version_requirement: ^9.4 || ^10 || ^11
+hidden: false
+dependencies:
+  - drupal:views_bulk_operations

@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+id: custom_vbo_actions_commerce_product_tags
+label: 'Update commerce product tags'
+type: commerce_product
+plugin: custom_vbo_actions_commerce_product_tags
+configuration: {  }
